@@ -49,7 +49,7 @@ def login():
     ask = int(input("Enter Your Password: "))
     while ask != credentials[ask]['password']:
         ask = str(input("Incorrect password.\nEnter Your Password: "))
-    print("LOGIN SUCESSFUL")
+    int(input("LOGIN SUCESSFUL\nWhat Service you want to use?\n1-To see available books\n2- To borrow books\n3- To return books"))
 
 def home():
     ask = int(input("WELCOME TO LIBRARY.\n1)To Register.\n2)To Login.\n"))
@@ -59,4 +59,7 @@ def home():
         signup()
     elif ask == 2:
         login()
+
+def borrow():
+    pass
 home()
