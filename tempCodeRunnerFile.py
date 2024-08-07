@@ -40,7 +40,7 @@ def login():
     ask = int(input("Enter Your ID: "))
     while ask not in credentials:
         ask = input("User not found.\nEnter Your ID: ")
-    ask2 = input("Enter Your Password: ")
+    ask2 = int(input("Enter Your Password: "))
     while ask2 != credentials[ask]['password']:
         ask2 = str(input("Incorrect password.\nEnter Your Password: "))
     print(f"Login suceessful\nHello {credentials[ask]['firstname'].title()}")
