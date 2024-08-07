@@ -8,8 +8,13 @@ Checking Rented books on cart
 
 ## Future Enhancments 
 . Implementing It with GUI to make it more convinient for users
+
 . Adding on it History Tracking of who rented it
+
 . add more error handling to improve user experiance 
+
 . also make it clone to make it web based
+
 . will apply data structure and alghorithm to effectively use memory
+
 . will make it OOP. to make it more clear
